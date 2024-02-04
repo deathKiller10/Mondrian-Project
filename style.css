@@ -1,0 +1,211 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    display: grid;
+    width: 1247px;
+    height: 731px;
+    grid-template-columns: 100px 40px 100px 60px 60px 90px 90px 90px 90px 60px 60px 100px 90px 100px;
+    grid-template-rows: repeat(10, 65px);
+    gap: 9px;
+}
+
+.black{
+    background-color: #232629;
+}
+
+.red{
+    background-color: #E72F24;
+}
+
+.blue{
+    background-color: #004592;
+}
+
+.yellow{
+    background-color: #F9D01E;
+}
+
+.white{
+    background-color: #F0F1EC;
+}
+
+.box1{
+    grid-column: span 2;
+}
+
+.box2{
+    grid-column: span 3;
+}
+
+.yellow1{
+    grid-column: span 2;
+}
+
+.blue1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.box3{
+    grid-column: span 3;
+}
+
+.box4{
+    grid-row: span 2;
+}
+
+.red1{
+    grid-column: span 4;
+    grid-row: span 4;
+}
+
+.yellow3{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.yellow4{
+    grid-column: span 2;
+}
+
+.box5{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.yellow5{
+    grid-row: span 3;
+}
+
+
+.red2{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.black2{
+    grid-column: span 2;
+}
+
+.box6{
+    grid-row: span 3;
+}
+
+.box7{
+    grid-row: span 2;
+}
+
+.box8{
+    grid-row: span 2;
+}
+
+.box9{
+    grid-column: span 2; 
+}
+
+.black3{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box10{
+    grid-column: span 2;
+}
+
+.box11{
+    grid-column: span 2;
+}
+
+.box12{
+    grid-row: span 3;
+}
+
+.black4{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.box13{
+    grid-column: span 2;
+}
+
+.box14{
+    grid-column: span 2;
+}
+
+.box15{
+    grid-row: span 2;
+}
+
+.box16{
+    grid-row: span 2;
+}
+
+.blue2{
+    grid-row: span 4;
+    grid-column: span 4;
+}
+
+.yellow6{
+    grid-row: span 3;
+}
+
+.box17{
+    grid-column: span 2;
+}
+
+.blue3{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box18{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.black5{
+    grid-column: span 2;
+}
+
+.yellow7{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box19{
+    grid-row: span 2;
+}
+
+.yellow8{
+    grid-row: span 2;
+}
+
+.box20{
+    grid-row: span 2;
+}
+
+.red3{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box21{
+    grid-column: span 3;
+}
+
+.box23{
+    grid-column: span 3;
+}
+
+.box24{
+    grid-column: span 2;;
+}
